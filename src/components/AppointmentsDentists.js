@@ -169,18 +169,18 @@ const AppointmentsDentists = (props) => {
                 <option value="21:30 - 22:00">21:30 - 22:00</option>
               </select>
             </div>
-            <div class="flex items-center">
+            <div class="flex items-center mb-3">
               <input id="link-checkbox" type="checkbox" value="true" name='toggle1' onChange={onchange} class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
               <label for="link-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">terms and conditions</a>.</label>
             </div>
-            <div class="flex items-center">
+            <div class="flex items-center mb-3">
               <input id="link-checkbox" type="checkbox" value="false" name='toggle2' onChange={onchange} class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
               <label for="link-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">terms and conditions</a>.</label>
             </div>
             <button type="submit" onClick={checkappointment} class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Check</button>
           </form>
         </div>
-        <div id="defaultModal" tabindex="-1" aria-hidden="true" class={`fixed bg-slate-200 top-0 left-0 h-[100vh]  md:top-40 md:left-40 right-0 z-50 ${openmodel ? 'flex' : 'hidden'} justify-center w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full`}>
+        <div id="defaultModal" tabindex="-1" aria-hidden="true" class={`fixed bg-slate-200 top-0 left-0 h-[100vh]  right-0 z-50 ${openmodel ? 'flex' : 'hidden'} justify-center w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full`}>
           <div class="relative w-full h-full max-w-2xl md:h-auto">
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
               <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
