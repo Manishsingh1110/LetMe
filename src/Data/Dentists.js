@@ -6,6 +6,7 @@ const Dentists=[
         'description': 'These hospital is highly recommended and famous for people',
         'addresses': '15,gajanan smruti nemade rd dombivli w',
         'zipcode': '421202',
+        'type':'Dentists',
         'bed': [
             {
                 'department': 'Anaesthesiology',

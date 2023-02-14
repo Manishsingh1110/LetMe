@@ -117,13 +117,13 @@ const Beddetails = (props) => {
               var j =200
               return (
                 <>
-                  <div className="lg:w-1/4 w-full px-4 " key={i}>
+                  <div className="lg:w-1/4  w-1/2 px-4 " key={i}>
                     <h1 className="text-gray-900 text-xl title-font font-medium ">{singledepartment.department}</h1>
                     <div className="flex flex-wrap">
                       {((singledepartment.departmentbed).map((singlebed) => {
                         j++
                         return (
-                          <div className="lg:w-1/4 w-full cursor-pointer" key={j}>
+                          <div className="lg:w-1/4 md:w-1/3 w-1/2 cursor-pointer" key={j}>
                             <Link to={`/particularhospital/${hospitaldata._id}/${singledepartment.department}/${singlebed}`}>
                               <Bed />
                             </Link>

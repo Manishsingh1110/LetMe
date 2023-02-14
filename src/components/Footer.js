@@ -1,12 +1,12 @@
 import React from 'react'
-
 const Footer = () => {
+  
   return (
   <footer className="text-gray-600 body-font bg-slate-300">
-  <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+  <div className="container px-5 py-8 mx-auto flex items-center  justify-around">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-    <img src="../assets/img/mlogo.png" className="h-6 mr-3 sm:h-10" alt="Flowbite Logo" />           
-      <span className="ml-3 text-xl">LetMe</span>
+    <img src="../assets/img/mlogo.png" className="h-6 sm:h-10" alt="Flowbite Logo" />           
+      <span className="text-xl">LetMe</span>
     </a>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a className="text-gray-500">

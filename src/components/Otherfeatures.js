@@ -20,7 +20,7 @@ const Otherfeatures = (props) => {
                         {(hospitaldata.map((singlehospital) => {
                             return (
                                 <div className="xl:w-1/4 md:w-1/2 p-4" key={singlehospital._id}>
-                                    <Link to={`/particularhospital/${singlehospital._id}`}>
+                                    <Link to={`/particulardoctor/${singlehospital._id}/${singlehospital.type}`}>
                                         <div className="bg-gray-100 p-6 rounded-lg">
                                             <img className="h-40 rounded w-full object-cover object-center mb-6" src={singlehospital.url} alt="content" />
                                             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">{singlehospital.title}</h3>
